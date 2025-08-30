@@ -1,0 +1,247 @@
+/* Reset */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: Arial, sans-serif;
+
+}
+
+body {
+
+  /* Smooth gradient merge instead of solid blocks */
+
+  background: linear-gradient(135deg, #9fd4e4, #f8aebe);
+
+  background-attachment: fixed; /* makes gradient consistent */
+
+  color: #222;
+
+  line-height: 1.6;
+
+}
+
+/* Header */
+
+header {
+
+  text-align: center;
+
+  padding: 40px 20px;
+
+}
+
+header h1 {
+
+  font-size: 2.3rem;
+
+  color: #222;
+
+}
+
+header .tagline {
+
+  margin: 10px 0;
+
+  font-size: 1.1rem;
+
+  color: #222;
+
+}
+
+header nav a {
+
+  margin: 0 10px;
+
+  color: #222;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+}
+
+header nav a:hover {
+
+  text-decoration: underline;
+
+}
+
+/* Sections */
+
+section {
+
+  padding: 60px 20px;
+
+  max-width: 900px;
+
+  margin: auto;
+
+  text-align: center;
+
+  background: rgba(255,255,255,0.2); /* transparent overlay to blend */
+
+  border-radius: 12px;
+
+  margin-bottom: 30px;
+
+}
+
+section h2 {
+
+  font-size: 1.8rem;
+
+  margin-bottom: 20px;
+
+  color: #222;
+
+}
+
+/* Achievements */
+
+.card-container {
+
+  display: grid;
+
+  gap: 15px;
+
+  max-width: 600px;
+
+  margin: auto;
+
+}
+
+.card {
+
+  background: rgba(255, 255, 255, 0.3);
+
+  padding: 15px;
+
+  border-radius: 8px;
+
+  border: 2px solid #f8aebe;
+
+  transition: transform 0.3s;
+
+}
+
+.card:hover {
+
+  transform: scale(1.05);
+
+}
+
+/* Skills */
+
+.skills-grid {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 10px;
+
+}
+
+.skills-grid span {
+
+  background: rgba(255,255,255,0.3);
+
+  color: #222;
+
+  padding: 10px 15px;
+
+  border-radius: 20px;
+
+  font-weight: bold;
+
+  transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.skills-grid span:hover {
+
+  transform: scale(1.1);
+
+  box-shadow: 0 0 10px #f8aebe;
+
+}
+
+/* Contact form */
+
+.contact-form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 15px;
+
+  max-width: 400px;
+
+  margin: auto;
+
+}
+
+.contact-form input,
+
+.contact-form textarea {
+
+  padding: 10px;
+
+  border-radius: 6px;
+
+  border: 2px solid #9fd4e4;
+
+}
+
+.contact-form button {
+
+  background: #f8aebe;
+
+  color: #222;
+
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  transition: transform 0.3s;
+
+}
+
+.contact-form button:hover {
+
+  transform: scale(1.05);
+
+  background: #9fd4e4;
+
+}
+
+/* Footer */
+
+footer {
+
+  text-align: center;
+
+  padding: 15px;
+
+  margin-top: 20px;
+
+  color: #222;
+
+  font-size: 0.9rem;
+
+  background: rgba(255,255,255,0.3);
+
+}
